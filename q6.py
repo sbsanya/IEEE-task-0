@@ -3,13 +3,14 @@ import matplotlib.pyplot as plt
 df = pd.read_csv("data/processed_student_performance.csv")
 
 
-plt.figure(figsize=(8, 5))
-plt.bar(df["Name"], df["Final_Score"])
+plt.figure(figsize=(12, 5))
+plt.bar(df["Student"], df["Final_Score"])
 plt.title("Student Names vs Final Scores")
 plt.xlabel("Student Names")
 plt.ylabel("Final Score")
+plt.xticks(rotation=60)
 plt.tight_layout()
-plt.savefig("final_scores.png")
+plt.savefig("plots/final_scores.png")
 plt.show()
 
 
@@ -19,7 +20,7 @@ plt.title("Hours Studied vs Final Score")
 plt.xlabel("Hours Studied")
 plt.ylabel("Final Score")
 plt.tight_layout()
-plt.savefig("study_vs_score.png")
+plt.savefig("plots/study_vs_score.png")
 plt.show()
 
 
@@ -29,7 +30,7 @@ plt.title("Distribution of Final Scores")
 plt.xlabel("Final Score")
 plt.ylabel("Number of Students")
 plt.tight_layout()
-plt.savefig("score_distribution.png")
+plt.savefig("plots/score_distribution.png")
 plt.show()
 
 plt.figure(figsize=(8, 5))
@@ -38,5 +39,5 @@ plt.title("Attendance vs Final Score")
 plt.xlabel("Attendance")
 plt.ylabel("Final Score")
 plt.tight_layout()
-plt.savefig("custom_plot.png")
+plt.savefig("plots/attendance_vs_score.png")
 plt.show()
