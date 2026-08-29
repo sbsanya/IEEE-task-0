@@ -4,11 +4,13 @@ This project contains Python solutions for a set of programming and data analysi
 
 Prerequisites
 The following software and libraries are required:
-Python 3.x
-NumPy
-Pandas
-Matplotlib
+Python 3.x,  
+NumPy,  
+Pandas,  
+Matplotlib,  
 Git
+
+
 Install the required Python libraries using:
 pip install numpy pandas matplotlib
 
