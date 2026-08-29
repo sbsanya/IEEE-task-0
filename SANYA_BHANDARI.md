@@ -18,8 +18,11 @@ pip install numpy pandas matplotlib
 The programs in this project were personally run using Visual Studio Code (VS Code).
 
 git --version
+
 git config --global user.name "sbsanya"
+
 git config --global user.email "f20260691@pilani.bits-pilani.ac.in"
-git clone <repository-url>
-cd <repository-name>
+
+git clone 
+cd IEEE-task-0
 
