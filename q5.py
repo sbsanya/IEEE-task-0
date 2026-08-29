@@ -1,5 +1,5 @@
 import pandas as pd
-df = pd.read_csv("student_performance.csv")
+df = pd.read_csv("data/student_performance.csv")
 print("First five rows:")
 print(df.head(5))
 print("Number of rows and columns:", df.shape)
