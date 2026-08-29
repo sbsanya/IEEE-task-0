@@ -23,6 +23,7 @@ git config --global user.name "sbsanya"
 
 git config --global user.email "f20260691@pilani.bits-pilani.ac.in"
 
-git clone 
+git clone https://github.com/sbsanya/IEEE-task-0.git
+
 cd IEEE-task-0
 
